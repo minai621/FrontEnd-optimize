@@ -15,7 +15,7 @@ function ViewPage(props) {
   const getArticle = useCallback((id) => {
     axios
       .get(
-        'https://minai621-special-invention-x44p94wpxj92pxpq-3001.preview.app.github.dev/articles' +
+        'https://minai621-special-invention-x44p94wpxj92pxpq-3001.preview.app.github.dev/articles/' +
           id
       )
       .then((success) => {
